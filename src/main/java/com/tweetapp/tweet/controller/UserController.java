@@ -26,7 +26,7 @@ import lombok.Generated;
 import lombok.extern.slf4j.Slf4j;
 
 @RequestMapping(value = "/api/v1.0/tweets")
-@CrossOrigin(origins="https://localhost:4200")
+@CrossOrigin(origins="http://localhost:4200")
 @RestController
 @Slf4j
 @Generated
