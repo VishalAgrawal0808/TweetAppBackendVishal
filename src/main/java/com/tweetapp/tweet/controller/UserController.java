@@ -26,7 +26,7 @@ import lombok.Generated;
 import lombok.extern.slf4j.Slf4j;
 
 @RequestMapping(value = "/api/v1.0/tweets")
-@CrossOrigin(origins="https://tweetappfrontendvishal.azurewebsites.net")
+@CrossOrigin(origins="https://tweetfrontendappvishal.azurewebsites.net")
 @RestController
 @Slf4j
 @Generated
